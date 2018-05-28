@@ -11,7 +11,7 @@ namespace FinalElectiva1
     {
 		public MainPage()
 		{
-			InitializeComponent();
+			InitializeComponent(); 
 
         }
            async private void Crear(object sender, EventArgs e)
