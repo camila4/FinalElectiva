@@ -17,7 +17,7 @@ namespace FinalElectiva1
             InitializeComponent();
             this.Master = new Master();
             this.Detail = new NavigationPage(new Detail());
-
+            NavigationPage.SetHasNavigationBar(this, false);
         }
 	}
 }

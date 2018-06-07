@@ -11,9 +11,11 @@ namespace FinalElectiva1
     {
 		public MainPage()
 		{
-			InitializeComponent(); 
+			InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
 
         }
+
            async private void Crear(object sender, EventArgs e)
              {
             await Navigation.PushAsync(new CrearCuenta());

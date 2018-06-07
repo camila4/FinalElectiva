@@ -2,8 +2,9 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalElectiva1.InicioP"
-             BackgroundColor="Aquamarine">
+             BackgroundColor="Aquamarine"
+                 >
+
     
-    
-    
+
 </MasterDetailPage>

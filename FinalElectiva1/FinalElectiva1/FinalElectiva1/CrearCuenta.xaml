@@ -41,6 +41,9 @@
                     HorizontalOptions="FillAndExpand"
                     BackgroundColor="Green"
                     TextColor="White"/>
+        <ActivityIndicator>
+            
+        </ActivityIndicator>
 
     </StackLayout>
 

@@ -1,5 +1,4 @@
-﻿using FinalElectiva1.Tabs;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,21 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace FinalElectiva1
+namespace FinalElectiva1.Tabs
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Detail : TabbedPage
-    {
-		public Detail ()
+	public partial class Page2 : ContentPage
+	{
+		public Page2 ()
 		{
 			InitializeComponent ();
-
-            Children.Add(new Page1());
-            Children.Add(new Page2());
-
-
-
-
-        }
+		}
 	}
 }

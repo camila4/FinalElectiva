@@ -3,7 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalElectiva1.Master"
              Title="Master"
-             BackgroundColor="Green"
-             Icon="menu.png">
-    
+             BackgroundColor="Green">
+
+
+                <Button
+                    Text="Crear Cuenta"
+                    HorizontalOptions="FillAndExpand"
+                    BackgroundColor="Green"
+                    TextColor="White"/>
+
 </ContentPage>
