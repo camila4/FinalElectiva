@@ -23,7 +23,7 @@ namespace FinalElectiva1
         }
         async private void entrar1(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Detail());
+            await Navigation.PushAsync(new InicioP());
         }
 
     }
