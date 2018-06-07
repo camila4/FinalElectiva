@@ -9,7 +9,7 @@ using Android.OS;
 
 namespace FinalElectiva1.Droid
 {
-    [Activity(Label = "FinalElectiva1", Icon = "@drawable/ic_farming1.png", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "FinalElectiva", Icon = "@drawable/ic_farming1", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)

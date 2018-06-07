@@ -4,5 +4,7 @@
              x:Class="FinalElectiva1.App">
 	<Application.Resources>
 
-		   </Application.Resources>
+		<!-- Application resource dictionary -->
+ 
+    </Application.Resources>
 </Application>
